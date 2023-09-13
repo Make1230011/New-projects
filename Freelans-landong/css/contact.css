@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header{
+    font-family: 'Poppins', sans-serif;
+    background-color: #171718;
+    margin-bottom: 50px;
+}
+
+.header-top hr{
+    background: #26292D;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px ;
+}
+
+.header-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #ffff;
+}
+
+.header-nav-item a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.contacts{
+    margin: 30px 150px 150px 150px;
+}
+
+
+.contact-header{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    color: #5C62EC;
+}
+
+
+.location-title{
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.location-text{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+.location-tel-what{
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.location-num{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+.location-email{
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.location-gmail{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+
+
+.footer{
+    height: 200px;
+    background-color: #171718;
+}
+
+
+.footer-content{
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-text{
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 30px;
+    color: #ffff;
+    font-size: 16px;
+}

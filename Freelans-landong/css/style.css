@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    font-family: 'Poppins', sans-serif;
+    height: 760px;
+    background-color: #171718;
+    margin-bottom: 50px;
+}
+
+.header-top hr{
+    background: #26292D;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px ;
+}
+
+.header-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #ffff;
+}
+
+
+.header-name span{
+    font-weight: 900;
+}
+
+.header-nav-item a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.header-main{
+    padding-top: 150px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header-title{
+    font-family: 'DM Sans', sans-serif;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+}
+
+.header-title span{
+    color: #5C62EC;
+}
+
+.title-down{
+    font-weight: 700px;
+    font-family: 'DM Sans', sans-serif;
+    color: #ffff;
+    font-size: 40px;
+}
+
+.header-text{
+    margin-top: 20px;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header-button{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 10px 10px;
+    background-color: #5C62EC;
+    border: #5C62EC;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+
+.header-image{
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+
+
+.main-content{
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+
+.main-text{
+    font-family: 'DM Sans', sans-serif;
+    color: #5C62EC;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.main-gallery{
+    height: 350px;
+    width: 370px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 35px 0px #00000040;
+}
+
+.gallety-text{
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 19px 20px;
+}
+
+.gallery-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gallery-content-two{
+    justify-content: space-between;
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer{
+    height: 200px;
+    background-color: #171718;
+}
+
+
+.footer-content{
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-text{
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 30px;
+    color: #ffff;
+    font-size: 16px;
+}
